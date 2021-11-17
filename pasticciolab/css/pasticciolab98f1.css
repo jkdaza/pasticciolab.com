@@ -1,0 +1,187 @@
+/**
+ * Style for Pasticcio Lab web pages
+ * Author: Dario Faniglione
+ * Pasticcio Lab 2015 - All rights reserved
+ * 
+ * Thanks for looking at the source.
+ * This site has been built upon the 'Semistatic GAE' framework, by Dario Faniglione.
+ * Although the framework has been released as open source (https://github.com/jkdaza/semistatic-gae), this theme is copyrighted.
+ * 
+ */
+
+body {font-family: 'napoleodoniregular', Arial, sans-serif; color: #FFF;}
+
+a {color: inherit;}
+a:hover, a:focus {color: inherit; text-decoration: none;}
+.img-responsive-fully {width: 100%}
+.logo-container img {max-width: 300px;}
+
+ul.navigation {list-style-type: none; padding:0; margin:0}
+ul.navigation li a {font-size: 12px; text-transform: uppercase; 
+font-family: 'belshaw_donut_robotregular', Arial, sans-serif; color: #FFF;}
+ul.navigation li a:hover, ul.navigation li a:focus {color: #ccc}
+ul.navigation li a.active {color: #ccc;}
+#home .section-head.fixed-top {display: none;}
+.navigation-horizontal ul.navigation li {display: inline; margin-right: 2em;}
+.navigation-horizontal ul.navigation li:last-child {margin-right: 0}
+.navigation-horizontal.gray {background-color: #d9d4be;}
+.navigation-horizontal.gray ul.navigation li a {color: #ffffcc}
+.navigation-horizontal.gray ul.navigation li a.active,
+.navigation-horizontal.gray ul.navigation li a:hover,
+.navigation-horizontal.gray ul.navigation li a:focus {color: #8c4c3f}
+
+.navigation-horizontal ul.navigation li.logo-small {float: right;}
+.navigation-horizontal ul.navigation li.logo-small img {width: 150px;}
+
+.section {}
+.section-head.fixed-top {position: fixed; width: 100%; background-color: rgba(255,255,255,0.2); padding: 25px; z-index: 999}
+.section-head.fixed-top.gray {background-color: #d9d4be;}
+.section-head-placeholder {height: 100px;}
+.section-footer {margin-top: 100px;}
+
+.stripes {background: url('../img/stripes_pattern.jpg');}
+.section-cover {position: absolute; width: 100%; height: 100%; background-color: rgba(81,74,59,0.7)}
+.parallax-window {padding-top: 60%;}
+.lower-index {z-index: -2;}
+.stellar-parallax {position: relative;}
+.maps iframe{pointer-events: none;}
+.circle {-webkit-border-radius: 50%; -moz-border-radius: 50%; 
+border-radius: 50%; width: 100px; padding-top: 100px; background-color: #8b8f4e; }
+.circle.gray {background-color: #a89682}
+.circle.red-light {background-color: #a55a43}
+.circle.red-dark {background-color: #792212}
+.circle.yellow {background-color: #d0a84d}
+#home {
+	 	position: relative;
+    background-attachment: scroll;
+    background-image: url('../img/pasticciolab-home-cover.jpg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#home .home-logo {padding-top: 50px; padding-bottom: 50px;}
+#home .home-logo img {width: 75%; max-width: 600px;}
+#home .section-content .empty-left {min-height:100px}
+#menu-gallery .row {margin: 0px;}
+#menu .section-head-placeholder {background-color: #d9d4be}
+#menu .menu-icon-container {background-color: #d9d4be; padding-bottom: 100px; padding-top: 100px;}
+#menu .menu-square-container {padding:0;}
+#menu .menu-square {width:100%; padding-bottom: 100%; background-color: #d9d4be; position: relative;}
+#menu .menu-square.mid {background-color: #2b2219;}
+#menu .menu-square > img {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+}
+
+#prodotti {margin-top: -70px; padding-top: 70px; background-color: #FFFFFF;}
+#prodotti .lista-prodotti {padding-bottom: 8%;}
+#prodotti .prodotto-link img {width: 100px;}
+#prodotti .prodotto-link.text-left {padding-left: 50px;}
+#prodotti .prodotto-link.text-right {padding-right: 50px;}
+#prodotti .prodotto-link.col-xs-6 {padding-top: 25px;}
+
+#prodotti .stripes {padding-top: 30%}
+#prodotti .prodotto-gallery {padding-top: 5%; padding-bottom: 2%}
+#prodotti .prodotto-gallery .gallery-container {width: 80%; margin: 0 auto; max-width: 1000px;}
+#mandorle {background-color: #ac4f3a; }
+#dolcetti {background-color: #7d8c4c; }
+#biscotti {background-color: #453924; }
+#torte {background-color: #d0a84d; }
+#pasticci {background-color: #792212; }
+
+#filosofia {background-image: url('../img/stripes_pattern_big.png');
+background-attachment: scroll; background-position: center center; position: relative;}
+#filosofia .statement {padding-top: 20%; padding-bottom: 30%; color: #FFFFFF}
+#filosofia .statement img {width: 70%; margin-bottom: 5%;}
+#filosofia .section-cover {background-color: rgba(99,87,63,0.5); z-index: -1;}
+
+#address-container {background-image: url('../img/address-background.jpg');
+background-attachment: scroll; background-position: center bottom; background-size: cover;}
+#address-container address {width: 45%; padding-left: 10%; 
+padding-top: 32%; color:#836a4d; font-size: 1.8em; padding-bottom: 33%;
+line-height: 1em; font-size: 4vw; position: relative;}
+
+#contact-form-container {background-color: #605a4e; padding: 5%; 
+font-family: 'snell_roundhandregular', Papyrus, Palatino, serif; font-weight: 100;}
+#contatti-intro-txt {color: #e8ac9e; font-size: 1.8em;}
+#contact-form-wrapper {padding-top: 5%; padding-bottom: 5%}
+
+#social-media-wrapper .social-link {}
+#social-media-wrapper .circle {width: 80%; padding-top: 80%; position: relative;}
+#social-media-wrapper .circle span {position: absolute; top: 35%; left: 0; width: 100%;}
+
+
+#dove-siamo {background-color: #493e38; }
+#dove-siamo .gap {padding-top: 15%;}
+#dove-siamo .gap-big {padding-top: 150%; position: relative;}
+#dove-siamo .gap-big .circle {position: absolute; top: 0; left 0; 
+width: 50px; padding-top: 50px; z-index: 5;}
+
+#dove-siamo .gap-big #c1.circle {top: 1%; left: 44%;}
+#dove-siamo .gap-big #c2 {top: 5%; left: 86%;}
+#dove-siamo .gap-big #c3 {top: 8%; left: 14%;}
+#dove-siamo .gap-big #c4 {top: 9%; left: 66%;}
+#dove-siamo .gap-big #c5 {top: 12%; left: 22%;}
+#dove-siamo .gap-big #c6 {top: 14%; left: 89%;}
+#dove-siamo .gap-big #c7 {top: 21%; left: 5%;}
+#dove-siamo .gap-big #c8 {top: 26%; left: 72%;}
+#dove-siamo .gap-big #c9 {top: 223px; left: 55%;}
+#dove-siamo .gap-big #c10 {top: 289px; left: 8%;}
+footer {}
+
+/*Galleries*/
+.carousel-control.right,
+.carousel-control.left {background-image: none; top: 46%;}
+.carousel-control.right {right: -150px;}
+.carousel-control.left {left: -150px;}
+
+@media(min-width:768px) {
+	#home .home-logo {padding-top: 250px; padding-bottom: 250px;}
+	#prodotti .prodotto-link img {width: 65%;}
+	#address-container address {font-size: 1.8em;}
+	#social-media-wrapper .circle {width: 50%; padding-top: 50%;}
+}
+
+/*Admin*/
+.alert.alert-warning {position: fixed; bottom: 0; margin: 0; z-index: 2;}
+
+/*Extend Bootstrap*/
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
